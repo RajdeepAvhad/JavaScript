@@ -24,3 +24,19 @@ let someNo = 33
 let stringNumber = String(someNo)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+// ************* Operations ***************** //
+
+// all basic operations
+// like console.log(2%3)
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+2+"2")
+
+// je pn data type adhi asel tyassarakh treat karel
+
+let count = 5
+count++
+console.log(count)
