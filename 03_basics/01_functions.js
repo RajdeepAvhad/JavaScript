@@ -23,5 +23,32 @@ function loginUserMsg(username){   // can pass the value of username here itself
 }
 // undefined or empty string is a false value
 
-console.log(loginUserMsg("Rajdeep"))
-console.log(loginUserMsg())
+// console.log(loginUserMsg("Rajdeep"))
+// console.log(loginUserMsg())
+
+//************Shopping Cart************//
+
+function calculateCartPrice(val1,val2,...num1){   //rest operator for infinite inputs
+    return num1
+}
+
+console.log(200,400,500,2000)  //val1=200 val2=400 rest in num1
+
+const user = {
+    username: "rajdeep",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+handleObject(user);
+
+const Arr = [200,400,100,300]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(Arr))
