@@ -62,3 +62,40 @@ console.log(Object.values(tinderUser))
 console.log(tinderUser.hasOwnProperty('id'))
 // have or not
 
+const course = {
+    coursename: "JS",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+// method to destructor
+// can give your own key name infront of :
+// {} curly braces means destruct
+
+console.log(courseInstructor)
+// can call directly
+
+//*********API Sample Response**********//
+
+//in JSON Format
+
+/* {
+        "name": "hitesh",
+        "coursename": "js in hindi",
+        "price": "free" 
+*/ }
+
+// not only in object format also in array format
+
+/*
+[
+    {},
+    {}'
+    {}
+]
+*/
+
+// to read the data in JSON u can use JSON formatter tool
